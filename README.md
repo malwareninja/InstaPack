@@ -79,4 +79,4 @@ Where *** can be:-
 2. Post Image (If the Post URL is invalid or not found)  
 2. Post Video (If the Post URL is invalid or not found)  
 
-<b style="color:red;"><h1>Do contact if there are any queries!</h1></b>  
+<b><h1>Do contact if there are any queries!</h1></b>  
