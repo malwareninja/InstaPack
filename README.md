@@ -58,13 +58,13 @@ That is it! Above code will fetch profile picture of user github in full resolut
 That is it! Above code will fetch the post image in the given Instargram Post URL in full resolution.  
 
 <b><h3>Fetch Post Video from Instagram Post URL</h3></b>  
-<code>  
+```  
 <?php  
   require('InstaPack/library.php');  
   $IP = new InstaPack;  
   echo $IP->Fetch_Post_Video("https://www.instagram.com/p/BaCc4jwFtW9/?taken-by=github");  
 ?>  
-</code>  
+```  
 
 That is it! Above code will fetch the post video in the given Instargram Post URL in full resolution.  
 
