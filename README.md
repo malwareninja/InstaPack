@@ -35,7 +35,7 @@ For more such applications & Help:-
 2. Create an Object of type InstaPack  
    <b>For example :- $IP = new InstaPack;</b>  
 3. Call any of the method to use it  
-   <b>For example :- echo $IP-></b>  
+   <b>For example :- echo $IP->Fetch_Profile_Picture("github");</b>  
    
 <b><h1>Examples</h1></b>  
 
@@ -58,11 +58,13 @@ That is it! Above code will fetch profile picture of user github in full resolut
 That is it! Above code will fetch the post image in the given Instargram Post URL in full resolution.  
 
 <b><h3>Fetch Post Video from Instagram Post URL</h3></b>  
+<code>  
 <?php  
   require('InstaPack/library.php');  
   $IP = new InstaPack;  
   echo $IP->Fetch_Post_Video("https://www.instagram.com/p/BaCc4jwFtW9/?taken-by=github");  
 ?>  
+</code>  
 
 That is it! Above code will fetch the post video in the given Instargram Post URL in full resolution.  
 
