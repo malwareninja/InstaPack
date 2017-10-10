@@ -40,20 +40,24 @@ For more such applications & Help:-
 <b><h1>Examples</h1></b>  
 
 <b><h3>Fetch Profile Picture of any User</h3></b>  
+```  
 <?php  
   require('InstaPack/library.php');  
   $IP = new InstaPack;  
   echo $IP->Fetch_Profile_Picture("github");    
 ?>  
+```  
 
 That is it! Above code will fetch profile picture of user github in full resolution.  
 
 <b><h3>Fetch Post Image from Instagram Post URL</h3></b>  
+```  
 <?php  
   require('InstaPack/library.php');  
   $IP = new InstaPack;  
   echo $IP->Fetch_Post_Image("https://www.instagram.com/p/BZ73_2qFnV9/?taken-by=github");  
 ?>  
+```  
 
 That is it! Above code will fetch the post image in the given Instargram Post URL in full resolution.  
 
@@ -68,3 +72,11 @@ That is it! Above code will fetch the post image in the given Instargram Post UR
 
 That is it! Above code will fetch the post video in the given Instargram Post URL in full resolution.  
 
+<b><h3>Errors</h3></b>  
+The library provides sufficient error handling for invalid parameters passed to its methods. If the method fails to fetch the data it will return the error <b><i>Unable to retrieve the ***.</b></i>  
+Where *** can be:-  
+1. Profile Picture (If the username is invalid or not found)  
+2. Post Image (If the Post URL is invalid or not found)  
+2. Post Video (If the Post URL is invalid or not found)  
+
+<b style="color:red;"><h1>Do contact if there are any queries!</h1></b>  
