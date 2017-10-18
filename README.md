@@ -77,6 +77,6 @@ The library provides sufficient error handling for invalid parameters passed to 
 Where *** can be:-  
 1. Profile Picture (If the username is invalid or not found)  
 2. Post Image (If the Post URL is invalid or not found)  
-2. Post Video (If the Post URL is invalid or not found)  
+3. Post Video (If the Post URL is invalid or not found)  
 
 <b><h1>Do contact if there are any queries!</h1></b>  
